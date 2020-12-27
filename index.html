@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Just a simple carousel example</title>
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button button--left is-invisible"></button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__track-slide current-slide">
+                    <img src="trainer_6.webp" alt="" class="carousel__image">
+                </li>
+                <li class="carousel__track-slide">
+                    <img src="trainer_7.webp" alt="" class="carousel__image">
+                </li>
+                <li class="carousel__track-slide">
+                    <img src="trainer_8.webp" alt="" class="carousel__image">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button button--right"></button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
